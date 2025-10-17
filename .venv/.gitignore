@@ -1,0 +1,15 @@
+# virtual env & caches
+.venv/
+__pycache__/
+*.log
+
+# generated at runtime
+outputs/
+data/snapshot_*.csv
+
+# large raw state files (only tiny samples should live in repo)
+data/states/*.csv
+
+# local IDE/project files
+.vscode/
+.DS_Store
